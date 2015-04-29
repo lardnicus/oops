@@ -1,5 +1,5 @@
 from mock import patch, Mock
-from thefuck.rules.ls_lah import match, get_new_command
+from oops.rules.ls_lah import match, get_new_command
 
 
 def test_match():

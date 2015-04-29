@@ -29,20 +29,20 @@ DEFAULT_SETTINGS = {'rules': DEFAULT_RULES,
                     'require_confirmation': False,
                     'no_colors': False}
 
-ENV_TO_ATTR = {'THEFUCK_RULES': 'rules',
-               'THEFUCK_WAIT_COMMAND': 'wait_command',
-               'THEFUCK_REQUIRE_CONFIRMATION': 'require_confirmation',
-               'THEFUCK_NO_COLORS': 'no_colors'}
+ENV_TO_ATTR = {'OOPS_RULES': 'rules',
+               'OOPS_WAIT_COMMAND': 'wait_command',
+               'OOPS_REQUIRE_CONFIRMATION': 'require_confirmation',
+               'OOPS_NO_COLORS': 'no_colors'}
 
 
-SETTINGS_HEADER = u"""# ~/.thefuck/settings.py: The Fuck settings file
+SETTINGS_HEADER = u"""# ~/.oops/settings.py: Oops settings file
 #
 # The rules are defined as in the example bellow:
 #
 # rules = ['cd_parent', 'git_push', 'python_command', 'sudo']
 #
 # The default values are as follows. Uncomment and change to fit your needs.
-# See https://github.com/nvbn/thefuck#settings for more information.
+# See https://github.com/nvbn/oops#settings for more information.
 #
 
 """

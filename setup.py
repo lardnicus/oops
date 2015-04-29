@@ -4,12 +4,12 @@ from setuptools import setup, find_packages
 VERSION = '1.30'
 
 
-setup(name='thefuck',
+setup(name='oops',
       version=VERSION,
       description="Magnificent app which corrects your previous console command",
       author='Vladimir Iakovlev',
       author_email='nvbn.rm@gmail.com',
-      url='https://github.com/nvbn/thefuck',
+      url='https://github.com/nvbn/oops',
       license='MIT',
       packages=find_packages(exclude=['ez_setup', 'examples',
                                       'tests', 'release']),
@@ -17,4 +17,4 @@ setup(name='thefuck',
       zip_safe=False,
       install_requires=['pathlib', 'psutil', 'colorama', 'six'],
       entry_points={'console_scripts': [
-          'thefuck = thefuck.main:main']})
+          'oops = oops.main:main']})

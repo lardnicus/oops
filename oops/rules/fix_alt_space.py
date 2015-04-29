@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 import re
-from thefuck.utils import sudo_support
+from oops.utils import sudo_support
 
 
 @sudo_support

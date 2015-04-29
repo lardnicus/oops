@@ -11,7 +11,7 @@ from . import logs, conf, types
 
 def setup_user_dir():
     """Returns user config dir, create it when it doesn't exist."""
-    user_dir = Path(expanduser('~/.thefuck'))
+    user_dir = Path(expanduser('~/.oops'))
     rules_dir = user_dir.joinpath('rules')
     if not rules_dir.is_dir():
         rules_dir.mkdir(parents=True)
@@ -108,8 +108,8 @@ def run_rule(rule, command, settings):
 
 
 def is_second_run(command):
-    """Is it the second run of `fuck`?"""
-    return command.script.startswith('fuck')
+    """Is it the second run of `oops`?"""
+    return command.script.startswith('oops')
 
 
 def main():
@@ -120,7 +120,7 @@ def main():
     command = get_command(settings, sys.argv)
     if command:
         if is_second_run(command):
-            logs.failed("Can't fuck twice", settings)
+            logs.failed("Can't oops twice", settings)
             return
 
         rules = get_rules(user_dir, settings)
@@ -129,4 +129,4 @@ def main():
             run_rule(matched_rule, command, settings)
             return
 
-    logs.failed('No fuck given', settings)
+    logs.failed('No oops given', settings)

@@ -1,6 +1,6 @@
 import pytest
 from mock import Mock
-from thefuck.rules.lein_not_task import match, get_new_command
+from oops.rules.lein_not_task import match, get_new_command
 
 
 @pytest.fixture

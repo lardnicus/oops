@@ -1,7 +1,7 @@
 import os
 import pytest
 from mock import Mock
-from thefuck.rules.ssh_known_hosts import match, get_new_command,\
+from oops.rules.ssh_known_hosts import match, get_new_command,\
     remove_offending_keys
 from tests.utils import Command
 
@@ -65,6 +65,6 @@ def test_get_new_command(ssh_error, monkeypatch):
     errormsg, _, _, _ = ssh_error
 
     method = Mock()
-    monkeypatch.setattr('thefuck.rules.ssh_known_hosts.remove_offending_keys', method)
+    monkeypatch.setattr('oops.rules.ssh_known_hosts.remove_offending_keys', method)
     assert get_new_command(Command('ssh user@host', stderr=errormsg), None) == 'ssh user@host'
     assert method.call_count

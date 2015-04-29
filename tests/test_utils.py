@@ -1,6 +1,6 @@
 from mock import Mock
-from thefuck.utils import sudo_support, wrap_settings
-from thefuck.types import Settings
+from oops.utils import sudo_support, wrap_settings
+from oops.types import Settings
 from tests.utils import Command
 
 

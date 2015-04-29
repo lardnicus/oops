@@ -1,5 +1,5 @@
 from mock import Mock
-from thefuck import logs
+from oops import logs
 
 
 def test_color():

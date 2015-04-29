@@ -3,7 +3,7 @@ import os
 import re
 from subprocess import check_output
 
-import thefuck.logs
+import oops.logs
 
 # Formulars are base on each local system's status
 brew_formulas = []

@@ -1,7 +1,7 @@
 from difflib import get_close_matches
 import os
 from pathlib import Path
-from thefuck.utils import sudo_support
+from oops.utils import sudo_support
 
 
 def _safe(fn, fallback):

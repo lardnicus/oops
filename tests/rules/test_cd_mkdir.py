@@ -1,5 +1,5 @@
 import pytest
-from thefuck.rules.cd_mkdir import match, get_new_command
+from oops.rules.cd_mkdir import match, get_new_command
 from tests.utils import Command
 
 

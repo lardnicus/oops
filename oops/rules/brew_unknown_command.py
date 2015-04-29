@@ -1,6 +1,6 @@
 import difflib
 import re
-import thefuck.logs
+import oops.logs
 
 # This commands are based on Homebrew 0.9.5
 brew_commands = ['info', 'home', 'options', 'install', 'uninstall', 'search',

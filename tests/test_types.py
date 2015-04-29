@@ -1,4 +1,4 @@
-from thefuck.types import Rule, RulesNamesList, Settings
+from oops.types import Rule, RulesNamesList, Settings
 
 
 def test_rules_names_list():

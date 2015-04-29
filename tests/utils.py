@@ -1,4 +1,4 @@
-from thefuck import types
+from oops import types
 
 
 def Command(script='', stdout='', stderr=''):

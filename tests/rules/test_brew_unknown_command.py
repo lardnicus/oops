@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.brew_unknown_command import match, get_new_command
-from thefuck.rules.brew_unknown_command import brew_commands
+from oops.rules.brew_unknown_command import match, get_new_command
+from oops.rules.brew_unknown_command import brew_commands
 from tests.utils import Command
 
 

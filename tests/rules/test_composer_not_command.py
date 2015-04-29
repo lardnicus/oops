@@ -1,5 +1,5 @@
 import pytest
-from thefuck.rules.composer_not_command import match, get_new_command
+from oops.rules.composer_not_command import match, get_new_command
 from tests.utils import Command
 
 

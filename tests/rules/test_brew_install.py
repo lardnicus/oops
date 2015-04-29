@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.brew_install import match, get_new_command
-from thefuck.rules.brew_install import brew_formulas
+from oops.rules.brew_install import match, get_new_command
+from oops.rules.brew_install import brew_formulas
 from tests.utils import Command
 
 
