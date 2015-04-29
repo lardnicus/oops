@@ -1,8 +1,6 @@
 # Oops! [![Build Status](https://travis-ci.org/nvbn/theoops.svg)](https://travis-ci.org/nvbn/theoops)
 
-Magnificent app which corrects your previous console command,
-inspired by a [@liamosaur](https://twitter.com/liamosaur/)
-[tweet](https://twitter.com/liamosaur/status/506975850596536320).
+Magnificent app which corrects your previous console command, politely.
 
 Few examples:
 
